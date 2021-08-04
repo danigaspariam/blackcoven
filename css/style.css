@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 30%;
+}
+.title {
+  color: #7954a1;
+  opacity: 0.6;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  font-family: 'Meddon', cursive;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: white; */
+  /* opacity: 0.5; */
+  width: 70%;
+}
+.navigation a {
+  display: flex;
+  padding: 1rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #323e42;
+  font-size: 2rem;
+  font-weight: bold;
+}
